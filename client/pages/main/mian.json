@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-divider": "tdesign-miniprogram/divider/divider",
+    "t-message": "tdesign-miniprogram/message/message"
+  }
+}

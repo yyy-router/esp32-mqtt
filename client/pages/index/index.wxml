@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="inputBox">
+    <t-input class="inp" label="用户名" placeholder="请输入用户名" bind:blur="getUsername"></t-input>
+    <t-input class="inp" label="管理密码" type="password" clearable bind:blur="getPassword" />
+    <t-dropdown-menu class="menu">
+    <text class="title">选择设备</text>
+      <t-dropdown-item options="{{product.options}}" value="{{product.value}}" bindchange="onChange" class="item"/>
+    </t-dropdown-menu>
+    <t-button class="but" theme="primary" size="large" variant="outline" bindtap="connectMqtt">点击连接</t-button>
+  </view>
+</view>

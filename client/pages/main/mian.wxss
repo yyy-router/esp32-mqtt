@@ -1,0 +1,37 @@
+page {
+  --box-height: 40vh;
+  --td-divider-color:#0052d9;
+  --td-divider-content-font-size:30rpx;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: #bdc3c7; */
+}
+
+.head {
+  width: 100vw;
+  height: var(--box-height);
+}
+
+.bottom {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - var(--box-height));
+}
+
+.buttonBox {
+  margin: 0 50rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32rpx;
+  transform: translateY(40rpx);
+}
+.message-example {
+  margin: 50rpx;
+}
+.external-class {
+  margin: 0 0 32rpx 0;
+}

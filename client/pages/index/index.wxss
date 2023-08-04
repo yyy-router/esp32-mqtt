@@ -1,0 +1,44 @@
+page{
+  --con-width:90vw;
+  --td-dropdown-menu-font-sizem:30rpx;
+  --input-height:5vh;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputBox{
+  width:var(--con-width);
+  height: 50vh;
+  position: relative;
+}
+.inp{
+  margin-bottom: 10rpx;
+  border-radius: 10rpx;
+  height: var(--input-height);
+}
+.but{
+  position: relative;
+  left: calc(var(--con-width) / 3);
+  margin-top: 40rpx;
+}
+.menu{
+  --height-menu:10vh;
+  height: var(--height-menu) !important;
+  border-radius: 9rpx;
+  line-height: var(--height-menu);
+  text-align: center;
+}
+.title{
+  position: absolute;
+  left: 32rpx;
+  font-size: 32rpx;
+}
+
+

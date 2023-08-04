@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="head">
+    <t-divider content="接收消息" align="left" />
+    <t-message id="t-message" />
+  </view>
+  <view class="bottom">
+    <t-divider content="远程控制" align="left" />
+    <view class="buttonBox">
+      <t-button theme="primary" block size="large" bindtap="openDevice">开启设备</t-button>
+      <t-button theme="light" block size="large" bindtap="closeDevice">关闭设备</t-button>
+    </view>
+  </view>
+</view>
